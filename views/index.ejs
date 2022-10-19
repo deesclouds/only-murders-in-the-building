@@ -1,0 +1,60 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/styles.css">
+        <title>OMITB App</title>
+    </head>
+<body>
+    <h1> Only Murders in The Building </h1>
+
+    <section data-position="add-quote">
+        <h2>Add quote</h2>
+
+    <form action="/quotes" method="POST">
+        <p>No quotations around quote</p>
+        <input type="text" placeholder="name" name="name">
+        <input type="text" placeholder="quote" name="quote">
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+
+    <section data-position="update-quote">
+    <div>
+        <h2> Cinda Canning invades!</h2>
+        <p>
+            Replace the first Oliver quote with a quote written by Cinda Canning!
+        </p>
+        <button id="update-button">Replace Oliver's quote</button>
+    </div>
+    </section>
+
+    <section data-position="delete-quote">
+    <div>
+        <h2> Remove Cinda Canning!</h2>
+        <p>
+            Delete one Cinda Canning quote. Does nothing if there are no more Cinda Canning quotes.
+        </p>
+        <button id="delete-button">Delete Cinda Canning's quote</button>
+        <div id="message"></div>
+    </div>
+    </section>
+
+    <section data-position="quotes">
+    <h2> Quotes </h2>
+    <ul class="quotes">
+        <!-- Loop through quotes -->
+        <% for(var i = 0; i <quotes.length; i++){%>
+            <li class="quote">
+                <!-- Output name from the iterated quote object -->
+                <span><%= quotes[i].name %></span>:
+                <!-- Output quote from the iterated quote object -->
+                <span><%= quotes[i].quote %></span>
+            </li>
+            <% } %>
+    </ul>
+    </section>
+        <script src="/main.js"></script>
+    </body>
+</html>
