@@ -2,6 +2,8 @@
 
 A fun CRUD app for learning how CRUD behaves based on quotes from the true crime podcast from the mystery-comedy show .... Only Murders in The Building!
 
+![only-murders-in-the-building](https://user-images.githubusercontent.com/77818241/197258743-79020074-855f-43c3-9d6f-b625166799a1.gif)
+
 # What is that?
 
 What is Express?
