@@ -4,8 +4,6 @@ A fun CRUD app for learning how CRUD behaves based on quotes from the true crime
 
 <p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/197258743-79020074-855f-43c3-9d6f-b625166799a1.gif" alt="only-murders-in-the-building"/></p> 
 
-<p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/197258743-79020074-855f-43c3-9d6f-b625166799a1.gif" alt="only-murders-in-the-building"/></p> 
-
 # What is that?
 
 What is Express?
