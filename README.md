@@ -4,7 +4,22 @@ A fun CRUD app for learning how CRUD behaves based on quotes from the true crime
 
 <p align="center" width="800" height="600"><img src="https://user-images.githubusercontent.com/77818241/197258743-79020074-855f-43c3-9d6f-b625166799a1.gif" alt="only-murders-in-the-building"/></p> 
 
-# What is that?
+# What is CRUD?
+
+CRUD is a set of operations we get our servers to execute:
+
+Create - Post something
+Read - Get something
+Update - Put something
+Destroy - Delete - something
+
+Post, Get, Put, Delete - are requests which lets us construct REST APIs 
+
+# What does this project use?
+Node, Express, MongoDB
+
+What is Node?
+Is an open-source, JavaScript(JS) runtime environment used for executing JS code outside of our web browser.
 
 What is Express?
 A framework for building web applications on top of Node.js
@@ -12,12 +27,6 @@ A framework for building web applications on top of Node.js
 MongoDB?
 Is a database where we store information for our sites and applications.
 
-CRUD?
-Set of operations we get our servers to execute:
 
-Create - Post something
-Read - Get something
-Update - Put something
-Destroy - Delete - something
 
-Post, Get, Put, Delete - requests lets us construct REST APIs 
+
