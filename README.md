@@ -21,3 +21,14 @@ Update - Put something
 Destroy - Delete - something
 
 Post, Get, Put, Delete - requests lets us construct REST APIs 
+
+# Technologies Used:
+HTML
+CSS - GRID
+JAVASCRIPT
+EJS
+NODE
+NODEMON
+EXPRESS
+MONGODB
+BODY PARSER - which is deprecated and needs to be updated within the codebase
