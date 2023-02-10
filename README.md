@@ -27,7 +27,7 @@ We make requests from our Browser that passes data to our Server, that then pass
 
 If that doesn't make enough sense right now that's ok. This diagram from zellwk.com can help clarify things: 
 
-<img src="crud-diagram.png" alt="image of crud">
+<img src="public/crud-diagram.png" alt="image of crud">
 
 ## Technologies Used:
 Html
