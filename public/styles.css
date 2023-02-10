@@ -12,8 +12,8 @@ html {
 body {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto 2fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: auto auto 0.5fr;
   grid-template-areas:
     "header header header"
     "add-quotes update-quote delete-quote"
@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 1rem;
   background-color: #ffffff;
-  background-image: url(Only-Murders-in-the-Building.svg);
+  background-image: url(Only-Murders-in-the-Building.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -61,7 +61,7 @@ h2 {
 }
 
 h1{ 
-  background-color: hsla(0, 0%, 100%, 0.617);
+  background-color: white;
   border-radius: 0.5rem;
   padding: 1rem;
 }
